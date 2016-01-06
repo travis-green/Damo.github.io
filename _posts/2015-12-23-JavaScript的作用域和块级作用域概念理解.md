@@ -1,9 +1,9 @@
 ---
 layout: post
-title: SQL语句总结
-date: 2015-12-25
+title:javascript作用域块级作用域概念理解
+date: 2015-12-23
 categories: blog
-tags: [SQL]
+tags: [javascript]
 description: 玩技术就要耐得住寂寞。
 
 ---
