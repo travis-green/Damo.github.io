@@ -1,6 +1,6 @@
 ---
 layout: post
-title:javascript作用域块级作用域概念理解
+title: javascript作用域块级作用域概念理解
 date: 2015-12-23
 categories: blog
 tags: [javascript]
