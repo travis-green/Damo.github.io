@@ -1,4 +1,12 @@
+---
+layout: post
+title: javascript DOM学习总结（二）
+date: 2015-11-27
+categories: blog
+tags: [javascript]
+description: 玩技术就要耐得住寂寞。
 
+---
 
 ###获取和设置属性
 **DOM**实在是个好东西，掌握了它我们不仅可以在JavaScript中使用，其它程序语言我们同样可以使用。
