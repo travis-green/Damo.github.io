@@ -40,7 +40,9 @@
 </body>
 </html>
 ```
+
 **楼主刚开始的时候将用了两个for循环就是这样的:**
+
 ```
  for(var i=0;i<=n;i++)
             {
@@ -51,15 +53,19 @@
                 document.getElementById("fiveStar").innerText="☆";
             }
 ```
+
 大神们估计已经看出来了,在for循环之后HTML里的span已经失去了作用,也就是说它只能评价一次.....
 **于是楼主顺着这个思路想到了用数组解决这个问题,就是让评星效果里的每一颗星储存到数组里,写出了上述的代码,可楼主还犯了一个小错误,着实困恼了许久....**
+
 ```
 array[0]=document.getElementById("oneStar").innerText;
 ```
+
 楼主这样定义的数组....结果可想而知,后面的代码根本无法改变评星,后来楼主想明白了,这样的定义直接将ID为onestar的元素的内容赋值给了数组,也就是说数组成了一个指向数组的指针....自然无法改变对应元素的值.
 **后来楼主就算是顿悟了....**
 之后又加了一些CSS效果
 **成品是这样的:**
+
 ```
 <!DOCTYPE html>
 <head>
@@ -196,4 +202,5 @@ array[0]=document.getElementById("oneStar").innerText;
 </body>
 </html>
 ```
+
 **Happy hacking!**
