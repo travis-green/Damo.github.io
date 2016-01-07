@@ -3,7 +3,6 @@
 我们知道，js是单线程执行的(单线程j就是说在程序执行时，所走的程序路径按照连续顺序排下来，前面的必须处理好，后面的才会执行)。所以其实setTimeout和setInterval所谓的“异步调用”事实上是通过将代码段插入到代码的执行队列中实现的。 
 而如何计算插入的时间点呢？自然是要用到我们所说的timer，也就是计时器。当执行setTimeout和setInterval的时候，timer会根据你设定的时间“准确”地找到代码的插入点。当队列“正常”地执行到插入点时，就触发timer callback，也就是我们设定的回调函数：
 ```
- 
 function fn() { 
 /* 
 here is some codes 
@@ -17,7 +16,6 @@ onload=fn;
 刚刚已经知道，事实上setTimeout和setInterval只是简简单单地通过插入代码到代码队列来实现代码的延迟执行（或者说异步执行）。但是事实上所谓的异步只是一个假象——它同样运行在一个线程上！ 始终是单线程！
 那么问题就来了，要是在代码插入点前的代码执行时间超过了传入setTimeout或setInterval的设定时间会怎样呢？让我们来看看这段代码： 
 ```
- 
 function fn() { 
 setTimeout(function(){alert('can you see me?');},1000); 
 while(true) {} 
