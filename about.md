@@ -23,6 +23,6 @@ header-img: "img/green.jpg"
 
 *   谭继臻/男/1996 
 *   本科/西安电子科技大学 
-*   技术博客: <jizhen.me>
+*   技术博客: <http://jizhen.me>
 *   Github: <https://github.com/damonare>
 
