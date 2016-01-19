@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "想说的话"
+title: "了解我"
 description: "学而不思则罔 "
 header-img: "img/green.jpg"
 ---
